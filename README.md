@@ -1,0 +1,1 @@
+# redhat-wso2-api-manager-rpm-installation

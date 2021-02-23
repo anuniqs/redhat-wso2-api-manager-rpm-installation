@@ -48,7 +48,7 @@ To start the server, <PRODUCT_HOME>/bin/wso2server.sh which is "/usr/lib64/wso2/
 
 To start the server in the background mode of Linux: sh wso2server.sh start To stop the server running in this mode, you will enter: sh wso2server.sh stop
 
-[root@msmsdev 3.2.0]# sh ./bin/wso2server.sh
+[root@localhost 3.2.0]# sh ./bin/wso2server.sh
 
 
 ### Access —

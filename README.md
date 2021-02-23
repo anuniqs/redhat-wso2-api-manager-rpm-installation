@@ -1,12 +1,8 @@
-# redhat-wso2-api-manager-rpm-installation
+### RPM Package Installation —
 
-RPM Package Installation : 
+**Site address - Download page :** https://wso2.com/api-management/
 
-Get it - 
-
-Site address - Download page : https://wso2.com/api-management/
-
-Site address - Documentation page : https://apim.docs.wso2.com/en/latest/
+**Site address - Documentation page :** https://apim.docs.wso2.com/en/latest/
 
 Downlaod package and copy to below ,
 
@@ -17,7 +13,7 @@ Downlaod package and copy to below ,
 [root@localhost 3.2.0]# ls -ltr
 
 
-Install it -
+### Install —
 
 [root@localhost 3.2.0]# rpm -ivh wso2am-linux-installer-x64-3.2.0.rpm
 
@@ -32,7 +28,7 @@ $ sudo service wso2am-3.2.0 start
 [root@localhost 3.2.0]# sudo service wso2am-3.2.0 start
 
 
-Controll it - 
+### Controll it — 
 
 Running the Product
 
@@ -45,7 +41,7 @@ To start the server in the background mode of Linux: sh wso2server.sh start To s
 Configuration file : /usr/lib64/wso2/wso2am/3.2.0/repository/conf
 
 
-Access it  -
+### Access —
 
 Publisher - https://localhost:9443/publisher
 
@@ -56,8 +52,12 @@ Admin console - https://localhost:9443/admin
 Carbon console - https://localhost:9443/carbon
 
 
-Uninstall - 
+### Uninstall — 
 
 [root@localhost ~]# rpm -qa | grep -i "wso2"
 
 [root@localhost ~]# rpm -e wso2am-3.2.0-1.el7.x86_64
+
+.
+  
+**@ By — Anup Kumar Mondal**

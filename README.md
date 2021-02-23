@@ -8,7 +8,9 @@ Downlaod package and copy to below ,
 
 [root@localhost 3.2.0]# pwd
 
+```
 /usr/lib64/APIManager/3.2.0
+```
 
 [root@localhost 3.2.0]# ls -ltr
 
@@ -17,6 +19,7 @@ Downlaod package and copy to below ,
 
 [root@localhost 3.2.0]# rpm -ivh wso2am-linux-installer-x64-3.2.0.rpm
 
+```
 WSO2 API Manager Installed on : "/usr/lib64/wso2/wso2am/3.2.0/"
 
 To update WSO2 API Manager as a service, open a new terminal and run:
@@ -24,21 +27,28 @@ $ sudo -u wso2 /usr/lib64/wso2/wso2am/3.2.0/bin/update_linux
 
 To run WSO2 API Manager as a service, open a new terminal and run:
 $ sudo service wso2am-3.2.0 start
+```
 
 [root@localhost 3.2.0]# sudo service wso2am-3.2.0 start
 
+**Configuration file :** /usr/lib64/wso2/wso2am/3.2.0/repository/conf
 
-### Controll it — 
 
-Running the Product
+### Controll — 
 
-Starting the server
+Running the Product , Starting the server ,
+
+[root@localhost ~]# sudo service wso2am-3.2.0 start
+
+Usage: sudo service <PRODUCT_NAME> <start|stop|restart>
+
+Or,
 
 To start the server, <PRODUCT_HOME>/bin/wso2server.sh which is "/usr/lib64/wso2/wso2am/3.2.0/bin" 
 
 To start the server in the background mode of Linux: sh wso2server.sh start To stop the server running in this mode, you will enter: sh wso2server.sh stop
 
-Configuration file : /usr/lib64/wso2/wso2am/3.2.0/repository/conf
+[root@msmsdev 3.2.0]# sh ./bin/wso2server.sh
 
 
 ### Access —

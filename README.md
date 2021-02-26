@@ -68,6 +68,18 @@ Carbon console - https://localhost:9443/carbon
 
 [root@localhost ~]# rpm -e wso2am-3.2.0-1.el7.x86_64
 
+
+### Change IP Address -
+ 
+<API-M_HOME>/repository/conf/deployment.toml and on second line change to IP
+
+And, 
+
+Search for - [apim.devportal] , Uncomment the url and change localhost to IP address
+
+Change on carbon setting from localhost to IP address , "Service Provides option"
+
+
 .
   
 **@ By — Anup Kumar Mondal**
